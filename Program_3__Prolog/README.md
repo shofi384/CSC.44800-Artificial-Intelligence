@@ -17,6 +17,6 @@
   - Langone's day was earlier than balloon day
   - Langone's day was later than frisbee day.
   - Hugh didn't spot the frisbee.
-  - Friday was either B's day or clothesline day (or both).
+ - Friday was either B's day or clothesline day (or both).
 5	N's day wasn't Tuesday.
 6	K didn't spot the water tower.
