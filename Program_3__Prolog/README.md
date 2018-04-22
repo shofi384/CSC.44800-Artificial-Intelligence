@@ -8,15 +8,27 @@
   4. Ms. Langone isn't the one whose object turned out to be a water tower.
  Represent this puzzle in Prolog, SWI Prolog is recommended. State the day of each sighting, the person doing the sighting, and the object allegedly sighted and what that object actually was (or at least what the government claimed it was).
 
-## Solution: 
+## Analysis: 
  Given:
   The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri.
   The four objects are frisbee, ballon, water tower, and clothesline.
   The four days are Tuesday, Wednesday, Thursday, and Friday.
  Also, the provided information includes:
-  - Langone's day was earlier than balloon day
-  - Langone's day was later than frisbee day.
-  - Hugh didn't spot the frisbee.
- - Friday was either B's day or clothesline day (or both).
-5	N's day wasn't Tuesday.
-6	K didn't spot the water tower.
+  (a) Langone's day was earlier than balloon day
+  (b) Langone's day was later than frisbee day.
+  (c) Hugh didn't spot the frisbee.
+  (d) Friday was either Barnes's day or clothesline day (or both).
+  (e) Demetri's day wasn't Tuesday.
+  (f) Langone didn't spot the water tower.
+
+## Solution: 
+ 1. From the given info we can figure out Langone didn't spot (a) balloon or (b) frisbee or (f) water tower. Then, Langone must have spotted the clothesline. 
+ 2. Since Langone's day can't be (a) Friday, then Friday must have been (d) Barnes's day.
+ 3. Frisbee wasn't spotted by (b) Langone or (c) Hugh. Nor was it spotted by Barnes, since Barnes's day was (2) Friday and the frisbee wouldn't have been spotted on Friday (b). So, Demetri spotted the frisbee. 
+
+Also, we know frisbee day is two days before balloon day (1,2), so frisbee day must have been Tuesday or Wednesday; but N's day wasn't Tuesday (5), so frisbee day was Wednesday, which means K's day was Thursday (2) and balloon day was Friday (1).
+And the rest we can get by elimination. Summing up:
+•	G spotted a water tower on Tuesday.
+•	N spotted a frisbee on Wednesday.
+•	K spotted a clothesline on Thursday.
+• B spotted a balloon on Friday.
