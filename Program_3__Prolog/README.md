@@ -9,4 +9,14 @@
  Represent this puzzle in Prolog, SWI Prolog is recommended. State the day of each sighting, the person doing the sighting, and the object allegedly sighted and what that object actually was (or at least what the government claimed it was).
 
 ## Solution: 
- The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri. And the four objects are frisbee, ballon, water tower, and clothesline.
+ Given:
+  The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri.
+  The four objects are frisbee, ballon, water tower, and clothesline.
+  The four days are Tuesday, Wednesday, Thursday, and Friday.
+ Also, the provided information includes:
+  - Langone's day was earlier than balloon day
+  - Langone's day was later than frisbee day.
+  - Hugh didn't spot the frisbee.
+  - Friday was either B's day or clothesline day (or both).
+5	N's day wasn't Tuesday.
+6	K didn't spot the water tower.
