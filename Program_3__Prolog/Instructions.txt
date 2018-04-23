@@ -1,0 +1,3 @@
+>swipl	//invoke SWI-Prolog
+>['filename.pl'].	|| swipl -f filename.pl	//load program
+>halt.	//exit SWI-Prolog
