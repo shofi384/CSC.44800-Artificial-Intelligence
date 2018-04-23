@@ -1,5 +1,5 @@
-//considering SWI-Prolog is already installed in the system
-//run this form the command line
+// Considering SWI-Prolog is already installed in the system
+// Run these form the command line to see the output
 
 >swipl	//invoke SWI-Prolog
 >['filename.pl'].	|| swipl -f filename.pl	//load program
