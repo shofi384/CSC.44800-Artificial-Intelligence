@@ -1,7 +1,13 @@
+%	Shofiqur Rahman  
+%	shofi384@gmail.com  
+%	CSC.44800 - Artificial Intelligence  
+%	Professor Stephen Lucci  
+
+%	SWI-Prolog representation of the UFO Puzzle
+
+
 remainder(X,[X|Ds],Ds).    
 remainder(X,[_|Ds],Rs) :- remainder(X,Ds,Rs).
-
-
 
 %Checks that `X` comes before `Y`
 %in the list `Ds`b
@@ -9,9 +15,7 @@ before(X,Y,Ds) :-
     remainder(X,Ds,Rs),
     member(Y,Rs).
 
-
-
- members([],_).        
+members([],_).        
 members([X|Xs],Ds) :-
     member(X,Ds),
     members(Xs,Ds).   
@@ -31,5 +35,4 @@ members([X|Xs],Ds) :-
 member([_, NOT_mr_hugh, frisbee], Days), NOT_mr_hugh \= mr_hugh,
 member([onTuesday, NOT_ms_Demetri, _], Days), NOT_ms_Demetri \= ms_Demetri,
 member([_, NOT_ms_Langone, water_tower], Days), NOT_ms_Langone \= ms_Langone,
-write(Days),
-    nl.
+write(Days), nl.
