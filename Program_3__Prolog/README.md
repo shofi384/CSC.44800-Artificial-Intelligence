@@ -10,26 +10,26 @@
 
 ## Analysis: 
  Given:  
-  The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri.
-  The four objects are frisbee, ballon, water tower, and clothesline.
-  The four days are Tuesday, Wednesday, Thursday, and Friday.
- Also, the provided information includes:
-  a. Langone's day was earlier than balloon's day
-  b. Langone's day was later than frisbee's day.
-  c. Hugh didn't spot the frisbee.
-  d. Friday was either Barnes's day or clothesline day (or both).
-  e. Demetri's day wasn't Tuesday.
-  f. Langone didn't spot the water tower.
+  The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri.  
+  The four objects are frisbee, ballon, water tower, and clothesline.  
+  The four days are Tuesday, Wednesday, Thursday, and Friday.  
+ Also, the provided information includes:  
+  a. Langone's day was earlier than balloon's day. 
+  b. Langone's day was later than frisbee's day.  
+  c. Hugh didn't spot the frisbee.  
+  d. Friday was either Barnes's day or clothesline day (or both).  
+  e. Demetri's day wasn't Tuesday.  
+  f. Langone didn't spot the water tower.  
 
-## Strategy: 
- A. From the given info we can figure out Langone didn't spot the balloon(a) or the frisbee(b) or water tower(f). Then, Langone must have spotted the clothesline. 
- B. Since Langone's day can't be Friday(a), then Friday must have been Barnes's day(d).
- C. The frisbee wasn't spotted by Langone(b) or Hugh(c). Nor was it spotted by Barnes since Barnes's day was Friday(B) and the frisbee wouldn't have been spotted on Friday(b). Therefore, Demetri spotted the frisbee. 
- D. The Frisbee's day is at least two days before balloon's day (a + b). So, the frisbee's day must have been either Tuesday or Wednesday. Again, Demetri spotted the frisbee(C) and Demetri's day wasn not Tuesday(e). Therefore, the frisbee's as well as Demetri's day was Wednesday. 
- E. Since Langone's day is after Wednesday(b+D) and not Friday(B), then it must be on Thursday.
- F. It follows from E that the balloon's day was Friday(E + a).
- H. The ballon was spotted by Barnes(B + F)
- G. From A, H, and F, Hugh spotted a water tower on Tuesday.
+## Strategy:
+ A. From the given info we can figure out Langone didn't spot the balloon(a) or the frisbee(b) or water tower(f). Then, Langone must have spotted the clothesline.  
+ B. Since Langone's day can't be Friday(a), then Friday must have been Barnes's day(d).  
+ C. The frisbee wasn't spotted by Langone(b) or Hugh(c). Nor was it spotted by Barnes since Barnes's day was Friday(B) and the frisbee wouldn't have been spotted on Friday(b). Therefore, Demetri spotted the frisbee.  
+ D. The Frisbee's day is at least two days before balloon's day (a + b). So, the frisbee's day must have been either Tuesday or Wednesday. Again, Demetri spotted the frisbee(C) and Demetri's day wasn not Tuesday(e). Therefore, the frisbee's as well as Demetri's day was Wednesday.  
+ E. Since Langone's day is after Wednesday(b+D) and not Friday(B), then it must be on Thursday.  
+ F. It follows from E that the balloon's day was Friday(E + a).  
+ H. The ballon was spotted by Barnes(B + F). 
+ G. From A, H, and F, Hugh spotted a water tower on Tuesday.  
 
 ## Solution:
  - Hugh spotted a water tower on Tuesday.
