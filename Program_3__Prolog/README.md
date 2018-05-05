@@ -9,7 +9,7 @@
  Represent this puzzle in Prolog, SWI Prolog is recommended. State the day of each sighting, the person doing the sighting, and the object allegedly sighted and what that object actually was (or at least what the government claimed it was).
 
 ## Analysis: 
- Given: 
+ Given:  
   The four UFO enthusiasts are Barnes, Hugh, Langone, and Demetri.
   The four objects are frisbee, ballon, water tower, and clothesline.
   The four days are Tuesday, Wednesday, Thursday, and Friday.
