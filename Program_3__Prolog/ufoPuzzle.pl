@@ -6,7 +6,7 @@
 %	SWI-Prolog representation of the UFO Puzzle
 
 
-remainder(X, [X | Ds], Ds).	% X is the the remainder of Ds such that X is the first element of a list
+remainder(X, [X | Ds], Ds).	% X is the remainder of Ds such that X is the first element of a list
 /* prolog clause with '_' or "don't-care" variable, which will match anything. 
 	It is basically defining the 'remainder' rule to be used for 'before' rule. It says X is the the remainder of Rs such that X is the first element of a list Rs, and the rest is Ds if remainder. . . */
 remainder(X, [_ | Ds], Rs) :- 

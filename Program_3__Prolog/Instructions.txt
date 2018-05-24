@@ -1,6 +1,6 @@
 // Considering SWI-Prolog is already installed in the system, run these from the command line to see the output.  
 
-> swipl	// invoke SWI-Prolog. 
-> ['ufoPuzzle'].	|| swipl -f filename.pl	// load program; dont forget the dot at the end of the command. 
-> puzzle.	// run the program to see the output. 
-> halt.	//exit SWI-Prolog. 
+> swipl	// to invoke SWI-Prolog. 
+> ['ufoPuzzle'].	|| swipl -f filename.pl	// to load the program; do not forget the dot at the end of the command. 
+> puzzle.	// to run the program to see the output. 
+> halt.	// to exit SWI-Prolog. 
